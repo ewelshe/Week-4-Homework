@@ -8,14 +8,21 @@ for (int x = 0; x <= width; x += 10) {
     float dy = 7*(1-2.0*y/height);
     line(x, y, x+dx, y+dy);
 
-counter=counter +1;
-    println(counter);
+
+if (y==y + dy){
+  counter = counter + 1;
+  println(counter);
+}
+
+//counter=counter +1;
+   // println(counter);
 
 
-//if(int counter=y;{ 
 
 }
 }
-
-
 //To find out how many times the line gets called I added a counter and println said the lines were drawn 1681 times.
+// I then added an if statement with a counter. when y==y+dy those are horizontal lines, now the counter counts how many those are and it is 41.
+
+
+
