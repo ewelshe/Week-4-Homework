@@ -1,4 +1,3 @@
-
 final int GRID_SIZE = 10;
 final float GRID_PADDING = 50;
 
@@ -8,7 +7,7 @@ void setup() {
 }
 
 float gridToCoordinates(int input) {
-  return GRID_PADDING+input*(500 - 2*GRID_PADDING)/(GRID_SIZE-1);
+  return GRID_PADDING+input*(650 - 2*GRID_PADDING)/(GRID_SIZE-1);
 }
 
 void draw() {
@@ -29,3 +28,5 @@ void draw() {
 //I first tried to change the first call to the ellipse size under the second float in the draw commmand. 
 //I changed the 1000 to 800 because I believe that is the maxiumum size of the cirlce perhapse. It didnt affect
 // the circle touching other cirlces. 
+//I changed the grid padding input to 600 instead of 500 because I wanted to see if that effected any of the cirlces
+// it made the circle not as big but it still touched so I changed it to 700 and it worked 
