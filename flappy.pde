@@ -34,5 +34,7 @@ void draw() {
     line(i*3, height-values[realIndex], i*3, height);
 println(height/3);
 //a. the highest value you observe for realIndex is 83. I divided height/3 in println because height is divided by 3 everytime the line is drawn 
+// b. I attempted using the milli function but I didnt know exactly how to use it or where to put it. 
+
 }
 }
