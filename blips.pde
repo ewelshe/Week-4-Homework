@@ -29,7 +29,7 @@ void draw() {
     x[mouseY] = mouseX;
     count[mouseY] = 0;
 
-println();
+println(count);
 
 }
 }
